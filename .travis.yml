@@ -6,4 +6,4 @@ before_install:
         - docker build -t codemastering/docker-react -f Dockerfile.dev .
 
 script:
-        - docker run codemastering/docker-react npm run test -- -- coverage
+        - docker run codemastering/docker-react npm run test -- --coverage
